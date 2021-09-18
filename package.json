@@ -1,0 +1,20 @@
+{
+  "name": "aws-serverless",
+  "version": "0.1.0",
+  "bin": {
+    "aws-serverless": "bin/aws-serverless.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.122.0",
+    "aws-cdk": "1.122.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.122.0"
+  }
+}
